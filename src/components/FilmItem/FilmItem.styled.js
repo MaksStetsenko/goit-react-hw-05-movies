@@ -1,7 +1,7 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const FilmLinkStyled = styled(NavLink)`
+export const FilmLinkStyled = styled(Link)`
   font-size: ${p => p.theme.fontSizes.m};
   color: ${p => p.theme.colors.link};
 `;
